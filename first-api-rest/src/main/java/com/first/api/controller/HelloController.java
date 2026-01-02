@@ -40,5 +40,23 @@ public class HelloController {
     public String saludar6(){
         return "Hola Mundo con REST en Spring Boot";
     }
+
+       // modificacion 1 - jose benites moncada
+    @GetMapping("/hello6")
+    public String saludar6(){
+        return "Hola Mundo con REST en Spring Boot";
+    }
+
+         // modificacion 2 - jose benites moncada - prueba webhook
+    @GetMapping("/hello6")
+    public String saludar6(){
+        return "Hola Mundo con REST en Spring Boot";
+    }
+
+       // modificacion 3 - jose benites moncada - prueba webhook
+    @GetMapping("/hello7")
+    public String saludar6(){
+        return "Hola Mundo con REST en Spring Boot";
+    }
 }
 
